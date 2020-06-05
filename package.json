@@ -2,6 +2,10 @@
   "name": "yourproject",
   "version": "0.0.2",
   "description": "Boilerplate",
+  "engines": {
+    "npm": "6.14.4",
+    "node": "12.16.3"
+  },
   "main": "index.js",
   "scripts": {
     "docker-start-dev": "docker-compose -f \"docker\\DEV.docker-compose.yml\" up",
