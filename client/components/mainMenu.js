@@ -19,7 +19,7 @@ const Main = () => {
           src="https://image.flaticon.com/icons/svg/25/25231.svg"
           alt="Workflow"
         />
-        <h2 className="z-10 relative mt-6 mb-6 text-center text-3xl leading-9 font-extrabold text-gray-900">
+        <h2 className="z-10 relative mt-6 mb-6 text-center text-3xl leading-9 font-extrabold text-white">
           Users repository search
         </h2>
         <input
@@ -36,7 +36,7 @@ const Main = () => {
         <Link to={`/${userName}`}>
           <button
             type="button"
-            className="btnClass transition duration-500 ease-in-out bg-blue-500 hover:bg-red-500 transform hover:-translate-y-1 hover:scale-110 ... bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded"
+            className="btnClass transition duration-500 ease-in-out bg-teal-700 hover:bg-red-500 transform hover:-translate-y-1 hover:scale-110 ...  hover:bg-teal-600 text-white font-bold py-2 px-4 rounded"
           >
             View repositories
           </button>
