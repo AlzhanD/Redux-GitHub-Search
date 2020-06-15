@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Markdown from 'markdown-to-jsx'
 import Loader from 'react-loader-spinner'
 import { updateReadme } from '../redux/reducers/repositories'
-import './readme.scss'
+import '../assets/scss/readme.scss'
 
 const ReadMe = () => {
   const { userName, repositoryName } = useParams()

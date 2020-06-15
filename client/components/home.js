@@ -5,7 +5,7 @@ import ReadMe from './readme'
 import RepoList from './repoList'
 import Header from './header1'
 import Footer from './footer'
-import './main.scss'
+import '../assets/scss/mainMenu.scss'
 
 const Home = () => {
   return (

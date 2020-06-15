@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import Loader from 'react-loader-spinner'
 import { useDispatch, useSelector } from 'react-redux'
 import { setRepositories } from '../redux/reducers/repositories'
+import '../assets/scss/main.scss'
 
 const RepoList = () => {
   const { userName, repositoryName } = useParams()

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import './main.scss'
+import '../assets/scss/mainMenu.scss'
 import { useDispatch, useSelector } from 'react-redux'
 import { searchRepos, setUser } from '../redux/reducers/repositories'
 

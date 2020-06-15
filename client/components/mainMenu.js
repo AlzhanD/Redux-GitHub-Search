@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { history } from '../redux'
 import Head from './head'
-import './main.scss'
 import { updateUsername } from '../redux/reducers/repositories'
 
 const Main = () => {
